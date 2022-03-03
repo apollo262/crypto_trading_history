@@ -17,7 +17,7 @@ networks = [
         'params': {
             'default': {
                 'module': 'account',
-                'startblock': 0, 'endblock': 99999999, 'page': 1, 'offset': 999, 'sort': 'asc',
+                'startblock': 0, 'endblock': 99999999, 'page': 1, 'offset': 10000, 'sort': 'asc',
                 'apikey': etherscan,
             },
             'normal': {'action': 'txlist'},
